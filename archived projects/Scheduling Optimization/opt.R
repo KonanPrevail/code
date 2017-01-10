@@ -4,7 +4,7 @@ rm(list=ls())
 options(error=NULL)
 
 # some initialization
-path="C:/Users/mcd04005/Documents/Modeling/Optimization/"
+path="C:/Users/xxxxxx/Documents/Modeling/Optimization/"
 setwd(path)
 
 #reading data
