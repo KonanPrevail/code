@@ -1,7 +1,6 @@
-You are modeling a recommender system for a lending club platform using
-model-based Collaborative Filtering (vs memory-based approach computing
-similarities between users and items to give recommendations using
-rating data).
+This model is for a lending club platform using model-based Collaborative Filtering 
+(vs memory-based approach computing similarities between users and items to give 
+recommendations using rating data).
 
 The model-based CF is a latent factor model, more robust than the
 memory-based approach, and handles sparsity better. Consider a sparse
@@ -11,7 +10,7 @@ loan i. The rating matrix is modeled by a matrix product of X
 rating given by lender j to loan i is an inner product of row i in X and
 column j in Ө:
 
-$${rating(i,j) = \theta^{j}}^{T}x^{i}$$
+${rating(i,j) = \theta^{j}}^{T}x^{i}$
 
 The matrix form is as follows:
 
