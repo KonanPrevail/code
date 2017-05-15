@@ -11,11 +11,11 @@ The details of the parameters are as follows:<br>
 
   s   Ticker symbol (YHOO in the example)<br>
   --- --------------------------------------<br>
-  a   The "from month"ù - 1<br>
-  b   The "from day"ù (two digits)<br>
-  c   The "from year"ù<br>
-  d   The "to month"ù - 1<br>
-  e   The "to day"ù (two digits)<br>
-  f   The "to year"ù<br>
-  g   d for day, m for month, y for yearly<br>
+  a   The "from month"ù - 1
+  b   The "from day"ù (two digits)
+  c   The "from year"ù
+  d   The "to month"ù - 1
+  e   The "to day"ù (two digits)
+  f   The "to year"ù
+  g   d for day, m for month, y for yearly
 
