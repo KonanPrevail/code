@@ -1,4 +1,4 @@
-<h2>Decision Tree based Bankrunptcy Prediction</h2>
+<h2>Decision Tree based Bankruptcy Prediction</h2>
 In this model a bankruptcy data set is used. The following is the information of 
 the attributes, from the income statements and balance sheets:
 
