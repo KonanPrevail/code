@@ -7,7 +7,7 @@ Google API examples: YHOO prices from for 15 days with interval of 300 seconds a
 requested by: <br>
 http://www.google.com/finance/getprices?q=YHOO&i=300&p=15d&f=d,o,h,l,c,v <br>
 In which the parameters are:
-q= stock symbol
+q= stock symbol<br>
 x= exchange symbol, may be omitted, for example the above can be <br>
 http://www.google.com/finance/getprices?q=YHOO&x=NASDAQ&i=300&p=15d&f=d,o,h,l,c,v <br>
 i = interval (here i=300 means intervals of 100 seconds or 5 minutes)<br>
