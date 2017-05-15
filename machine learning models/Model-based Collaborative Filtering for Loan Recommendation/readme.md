@@ -10,13 +10,13 @@ loan i. The rating matrix is modeled by a matrix product of X
 rating given by lender j to loan i is an inner product of row i in X and
 column j in Ө:
 
-${rating(i,j) = \theta^{j}}^{T}x^{i}$
+$$
+{rating(i,j) = \theta^{j}}^{T}x^{i}
+$$
 
 The matrix form is as follows:
 
 $$rating = X*\theta^{T}$$
-
-![](media/image1.png){width="4.46875in" height="1.925in"}
 
 The recommender system model helps estimate the missing ratings and
 recommends good loans to the lenders. The function costFunction()
