@@ -1,4 +1,5 @@
 <h2>Decision Tree based Bankruptcy Prediction</h2>
+
 In this model a bankruptcy data set is used. The following is the information of 
 the attributes, from the income statements and balance sheets:
 
@@ -40,13 +41,6 @@ the attributes, from the income statements and balance sheets:
 
 The target variable is FAIL, either = 1 or 0. You program a decision
 tree model using information gain for splitting.
-
-Node N is split into B branches/partitions (in the assignment B = 2
-corresponding to binary values 0 and 1), n~k~ is number of records in
-k^th^ partition N~k~, P~k~ is the fraction of training records sent to
-node N~k~:
-
-In which entropy at node N (where data is split):
 
 In the main code, all the variables are binarized to 0/1 values. 70% of
 data rows were used for training and the rest is for testing. The
@@ -122,18 +116,18 @@ the count for instances with y=1 is 0.
 
 Appendix:**
 
-main.m: is the main code
+main: is the main code
 
-infogain.m: computes the information gain
+infogain: computes the information gain
 
-leafcat.m: computes the counts of instances at the leaf nodes
+leafcat: computes the counts of instances at the leaf nodes
 
-varpath.m: returns the list of variables from the current node to the
+varpath: returns the list of variables from the current node to the
 root in order to get a list of unused variables just below it to the
 leaves for the next splitting
 
-print.m: prints the tree using Depth First Search method
+print: prints the tree using Depth First Search method
 
-classify.m: classifies instances
+classify: classifies instances
 
-buildtree.m: recursively builds the tree
+buildtree: recursively builds the tree
