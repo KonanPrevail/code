@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 In this model a bankruptcy data set is used. The following is the information of 
 the attributes, from the income statements and balance sheets:
+=======
+In this model a bankruptcy data set is used. The data set can be downloaded from
+HuskyCT. The following is the information of the attributes, from the
+income statements and balance sheets:
+>>>>>>> 666dc3032e7a8f1b9b994aefb367e90acd942763
 
 1)  Size
 
@@ -22,9 +28,15 @@ the attributes, from the income statements and balance sheets:
 
     a.  CACL: current assets=current liabilities
 
+<<<<<<< HEAD
     b.  QACL: (current assets – stock)=current liabilities
 
     c.  WCTA: (current assets – current liabilities)=total assets
+=======
+    b.  QACL: (current assets â€“ stock)=current liabilities
+
+    c.  WCTA: (current assets â€“ current liabilities)=total assets
+>>>>>>> 666dc3032e7a8f1b9b994aefb367e90acd942763
 
 5)  LAG: number of days between account year end and the date the annual
     report and accounts were filed at company registry.
@@ -115,7 +127,11 @@ V3=1 V9=1 V7=1 V1=0 =&gt; classify y=1 distribution=\[0,1\]
 
 V3=1 V9=1 V7=1 V1=1 =&gt; classify y=0 distribution=\[0,0\]
 
+<<<<<<< HEAD
 The text at the leaves, for example “classify y=0 distribution=\[3,0\]”
+=======
+The text at the leaves, for example â€œclassify y=0 distribution=\[3,0\]â€
+>>>>>>> 666dc3032e7a8f1b9b994aefb367e90acd942763
 means classification is y=0 as the count for instances with y=0 is 3 vs
 the count for instances with y=1 is 0.
 
@@ -136,6 +152,9 @@ print.m: prints the tree using Depth First Search method
 classify.m: classifies instances
 
 buildtree.m: recursively builds the tree
+<<<<<<< HEAD
 
 ![https://www.cs.drexel.edu/\~introcs/F2K/lectures/7.2\_AI/GameGraphics/BreadthFirst.gif](media/image4.gif){width="3.6875in"
 height="2.0770942694663166in"}
+=======
+>>>>>>> 666dc3032e7a8f1b9b994aefb367e90acd942763
