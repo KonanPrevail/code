@@ -23,9 +23,9 @@ income statements and balance sheets:
 
     a.  CACL: current assets=current liabilities
 
-    b.  QACL: (current assets ñ stock)=current liabilities
+    b.  QACL: (current assets ‚Äì stock)=current liabilities
 
-    c.  WCTA: (current assets ñ current liabilities)=total assets
+    c.  WCTA: (current assets ‚Äì current liabilities)=total assets
 
 5)  LAG: number of days between account year end and the date the annual
     report and accounts were filed at company registry.
@@ -116,7 +116,7 @@ V3=1 V9=1 V7=1 V1=0 =&gt; classify y=1 distribution=\[0,1\]
 
 V3=1 V9=1 V7=1 V1=1 =&gt; classify y=0 distribution=\[0,0\]
 
-The text at the leaves, for example ìclassify y=0 distribution=\[3,0\]î
+The text at the leaves, for example ‚Äúclassify y=0 distribution=\[3,0\]‚Äù
 means classification is y=0 as the count for instances with y=0 is 3 vs
 the count for instances with y=1 is 0.
 
@@ -137,6 +137,3 @@ print.m: prints the tree using Depth First Search method
 classify.m: classifies instances
 
 buildtree.m: recursively builds the tree
-
-![https://www.cs.drexel.edu/\~introcs/F2K/lectures/7.2\_AI/GameGraphics/BreadthFirst.gif](media/image4.gif){width="3.6875in"
-height="2.0770942694663166in"}
