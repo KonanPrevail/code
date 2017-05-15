@@ -1,4 +1,4 @@
-<h2>CAPM Beta computation using Linear Regression</h2>
+<h2>CAPM Beta Computation using Linear Regression</h2>
 
 This model applies gradient decent to compute beta of
 securities following CAPM model (see the MATLAB link at the bottom):
