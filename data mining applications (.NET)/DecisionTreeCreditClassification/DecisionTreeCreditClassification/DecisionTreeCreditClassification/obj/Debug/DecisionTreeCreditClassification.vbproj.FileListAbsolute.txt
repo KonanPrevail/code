@@ -1,0 +1,13 @@
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\bin\Debug\DecisionTreeCreditClassification.exe.config
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\bin\Debug\DecisionTreeCreditClassification.exe
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\bin\Debug\DecisionTreeCreditClassification.pdb
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\bin\Debug\DecisionTreeCreditClassification.xml
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\bin\Debug\numl.pdb
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\bin\Debug\numl.xml
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\DecisionTreeCreditClassification.vbprojResolveAssemblyReference.cache
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\BayesClassification.CreditChecker.resources
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\BayesClassification.Resources.resources
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\DecisionTreeCreditClassification.vbproj.GenerateResource.Cache
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\DecisionTreeCreditClassification.exe
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\DecisionTreeCreditClassification.xml
+C:\Users\MC\Documents\Visual Studio 2013\Projects\DecisionTreeCreditClassification\DecisionTreeCreditClassification\obj\Debug\DecisionTreeCreditClassification.pdb

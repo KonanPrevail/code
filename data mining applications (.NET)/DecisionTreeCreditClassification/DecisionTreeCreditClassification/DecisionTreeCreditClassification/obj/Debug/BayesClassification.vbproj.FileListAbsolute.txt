@@ -1,0 +1,14 @@
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\BayesClassification.exe.config
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\BayesClassification.exe
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\BayesClassification.pdb
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\BayesClassification.xml
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\numl.dll
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\numl.pdb
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\bin\Debug\numl.xml
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.vbprojResolveAssemblyReference.cache
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.Resources.resources
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.vbproj.GenerateResource.Cache
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.exe
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.xml
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.pdb
+C:\Users\MC\AppData\Local\Temporary Projects\BayesClassification\obj\Debug\BayesClassification.CreditChecker.resources
