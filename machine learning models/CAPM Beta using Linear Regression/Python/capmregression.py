@@ -13,6 +13,29 @@ import reg_capm_lib as lib
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
+def optimizeCost(X,y,theta,step,maxrun):
+    m = len(y)
+    cost_range = np.zeros((maxrun,1))
+
+    for iter in range(0,maxrun):
+        # h = np.dot(np.transpose(X),np.transpose(theta))
+        h = X.dot(theta)
+        grad = 1/m*(h - y).T.dot(X)    # grad is 1 x d
+        # grad = 1/m*np.dot(np.transpose(h - y),X)    # grad is 1 x d
+        theta = theta - step * grad.T
+        cost_range[iter] = 1/2/m*(h-y).T.dot(h-y) ## ** is element-wise power of 2
+    
+    # return multiple variables in a tuple
+    return theta,cost_range
+	
+def computeCost(X,y,theta):
+    m = len(y)
+    cost = 0
+    h = np.dot(X,theta) 
+    cost = 1/2/m*(h-y).T.dot(h-y)
+    return(cost)	
+	
+	
 data = np.loadtxt(r"C:\xxx\CAPMuniverse.csv",delimiter=",",skiprows=1)
 (m,n) = data.shape # number of observations x number of variables
 
@@ -22,7 +45,6 @@ y = np.matrix(data[:, 12]-data[:, 14]).reshape(m,1) # 12th is YHOO, 14th is the 
 X = data[:, 13]-data[:, 14] # 13th is the market return
 
 # ================== Gradient Descent =======================
-#  np.r_ and np.c_. (Think "column stack" and "row stack" (which are also functions) but with matlab-style range generations.)
 X = np.matrix(np.c_[np.ones((m,1)), X]) # now add a column of 1 to X so it becomes [x0,x1]
 maxrun = 1000000 # maximum number of iterations
 step = 0.1

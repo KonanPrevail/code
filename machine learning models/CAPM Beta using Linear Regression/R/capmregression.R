@@ -3,10 +3,28 @@ rm(list=ls())
 path="C:/xxx"
 setwd(path)
 
-source("reg_capm_lib.R")
-
 library("plot3D")
 library("plotly")
+
+# use source if the functions are in another file
+optimizeCost <- function(X,y,theta,step,maxrun) {
+  m <- dim(X)[1]
+  cost_range <- rep(0,length=maxrun) 
+  
+  for (iter in 1:maxrun) {        
+    h = X%*%theta
+    grad = 1/m * t(h-y) %*% X # grad is 1 x d
+    theta = theta - step * t(grad)#
+    cost_range[iter] = 1/2/m*sum((h-y)**2)
+  }
+  # return multiple variables using a list
+  return(list(theta=theta,cost_range=cost_range)) 
+}
+computeCost <- function(X,y,theta) {
+  h <- X%*%theta
+  cost <- 1/(2*length(y))*sum((h-y)**2)
+  return(cost)
+}
 
 data <- read.csv('../../data/CAPMuniverse.csv')
 m = dim(data)[1] # number of observations x number of variables
@@ -45,7 +63,6 @@ title(xlab="Iterations",col.lab="black")
 title(ylab="Cost",col.lab="black")
 title(main="Cost vs iterations",col.main="black")
 
-# See more examples at http://www.harding.edu/fmccown/r/
 th0 <- seq(r$theta[1]-10,r$theta[1]+10,length=100)
 th1 <- seq(r$theta[2]-10,r$theta[2]+10,length=100)
 grid <- mesh(th0,th1)
