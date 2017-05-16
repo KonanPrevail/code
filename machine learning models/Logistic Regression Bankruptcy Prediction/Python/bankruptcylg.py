@@ -129,7 +129,6 @@ testX2 = lib.mapping(testX, 2)  # rename to avoid overwrite more than onece
 
 lambdad = 0.01
 
-# Optimization using fminunc
 # Optimization using scipy.optimize.minimize
 res2 = minimize(lib.computeCost, theta2, args=(X2, y, lambdad, ),jac=lib.cost_grad, options={"maxiter": 5000})
 
